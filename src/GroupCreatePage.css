@@ -1,0 +1,60 @@
+.group-create-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.group-create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.group-create-form label {
+  font-size: 16px;
+  text-align: left;
+}
+
+.group-create-form input,
+.group-create-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container input {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
